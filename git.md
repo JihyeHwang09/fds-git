@@ -82,6 +82,15 @@ git은 처음에는 command line을 이용하는게 좋음. (개념 잡기에 �
 
 Visual Studio Code 내장 기능에서는 git의 모든 기능을 사용할 수 X. 단순한 기능만 들어있음.
 
-#SSH에러
+## SSH 에러
 Sourcetree에서 
 SSH에러가 날 경우, 
+도구 -> 옵션 -> SSH 클라이언트 설정 -> SSH 클라이언트: OpenSSH로 설정
+
+## git에 올리지 않고 싶은 파일이 있을 때
+git ignore 키워드로 검색
+
+## Pull Request
+: 협업할 때 많이 사용. 사용자가 소유자의 허락을 받아야만 push를 할 수 있는 절차. 
+
+
