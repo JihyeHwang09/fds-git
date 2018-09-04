@@ -82,6 +82,6 @@ git은 처음에는 command line을 이용하는게 좋음. (개념 잡기에 �
 
 Visual Studio Code 내장 기능에서는 git의 모든 기능을 사용할 수 X. 단순한 기능만 들어있음.
 
-
+#SSH에러
 Sourcetree에서 
 SSH에러가 날 경우, 
