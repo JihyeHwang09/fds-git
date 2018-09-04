@@ -10,5 +10,5 @@ hello
 hello
 hello
 hello
-fun git!
-fun!!
+hi hi hi
+funny!!
