@@ -1,7 +1,10 @@
 
+
+
 Windows에서는 /c밑에 gitbash가 존재.
 cmd에서는 backslash(\)로 나타냄.
 
+## 상대 경로 VS 절대 경로
 현재 있는 위치와 가까운 경로로 가려고 할 때 -> 상대 경로
 먼 경로로 이동하려고 할 때 -> 절대 경로 
 
@@ -68,14 +71,19 @@ git log 어떤 commit들이 이루어졌는지(커밋을 누가, 언제했는지
 
 git은 파일만 관리함. 폴더는 관리하지 X.  -> 빈폴더를 올리면 아무 변화 X. 
 삭제라는 변경사항도 스테이징 영역에 올려야함. 
-git checkout  일련번호-  일련번호에 해당하는 변경사항으로 돌아가기 가능함. 
+git checkout  일련번호:  일련번호에 해당하는 변경사항으로 돌아가기 가능함. 
 git remote add origin(별명) https://github.com/JihyeHwang09/fds-git.git(주소)
 
+
+## commit VS push 
 commit은 내 로컬 저장소에만 저장되는 것임.
 push는 이제까지 한 commit을 원격저장소에 저장하는 것임. (로컬 저장소의 변경사항 -> 원격 저장소)
+
+## pull
 pull (원격 저장소의 변경사항 -> 로컬 저장소)로 당겨오는 것
 
 
+## Visual Studio Code에서 git 사용하기  
 Visual Studio Code에서도 git 사용할 수 있음.
 ctrl+shift+p -> push 누르면 push 가능 (pull은 없음)
 git은 처음에는 command line을 이용하는게 좋음. (개념 잡기에 좋음)(명령어에 뜻이 담겨있으므로)
